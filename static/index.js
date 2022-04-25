@@ -1,5 +1,5 @@
 const form = document.getElementById('urlSubmit');
-const input = document.querySelector('urlInput');
+const input = document.getElementById('urlInput');
 
 form.addEventListener('click', async event => {
     event.preventDefault();
